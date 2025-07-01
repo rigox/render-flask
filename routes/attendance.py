@@ -165,3 +165,10 @@ def get_attendance_summary():
          "checkouts":checkouts, 
          "missing":missing
     })
+
+
+
+##Attendance Home Page
+@attendance_bp.route('/attendance/checkin', methods=['GET'])
+def home():
+   return "<h1> Atteandance Page </h1>"
