@@ -169,6 +169,6 @@ def get_attendance_summary():
 
 
 ##Attendance Home Page
-@attendance_bp.route('/attendance/checkin', methods=['GET'])
+@attendance_bp.route('/attendance/home', methods=['GET'])
 def home():
    return "<h1> Atteandance Page </h1>"
